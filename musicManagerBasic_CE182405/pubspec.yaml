@@ -1,0 +1,25 @@
+name: music_manager_basic_ce182405
+description: "LAB 2 Music Library Manager with local SQLite and session persistence."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.5
+  shared_preferences: ^2.5.6
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
