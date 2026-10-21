@@ -1,0 +1,27 @@
+name: lab5
+description: Favorite Shopping Items App with persistent local SQLite storage.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.4+2
+  sqflite_common_ffi: ^2.4.4
+  path: ^1.9.1
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/shopping_banner.png

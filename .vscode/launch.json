@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LAB 5 — Shopping Wishlist",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "${workspaceFolder}/lab5",
+      "program": "${workspaceFolder}/lab5/lib/main.dart"
+    }
+  ]
+}
